@@ -1,0 +1,42 @@
+# Node / JavaScript
+node_modules/
+.npm/
+.pnpm-store/
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS / build artifacts
+dist/
+build/
+out/
+coverage/
+*.tmp
+*.bak
+
+# Local runtime files
+*.sqlite3
+*.db
